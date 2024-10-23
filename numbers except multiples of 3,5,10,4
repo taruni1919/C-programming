@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void main() {
+
+ for(int i = 10; i < 1000; i++) {
+
+if(i % 3== 0 || 1 % 5 == 0 ||
+
+1 % 10 == 0 || 1 % 4 == 0) {
+
+continue;
+
+ }
+
+
+printf("\n%d", i);
+
+ }
+
+}
