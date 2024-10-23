@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+ void main() {
+
+int a=100;
+
+int j;
+
+for(int i=1;j=a,i<j;i++,j--){
+
+printf("\n%d", i);
+
+printf("\n%d", i);
+
+  }
+
+ }
