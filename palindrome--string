@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int i,j,count=0;
+    char str1[5]="madam";
+    for(i=0,j=(strlen(str1)-1);i<5,j>0;i++,j--)
+      if(str1[i]!=str1[j])
+      {
+          printf("its not palindrome");
+          count=1;
+          break;
+      }
+  if(count==0)
+  printf("its a palindrome");
+  return 0;
+}
